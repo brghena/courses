@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+title: Branden Ghena Courses
+#tagline: 
+description: Course websites for classes taught by Branden Ghena at Northwestern University
+author: Branden Ghena
+baseurl: '/courses' # the subpath of your site, e.g. /blog
+url: 'https://brghena.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
@@ -28,41 +28,43 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+  Branden Ghena:
+    - 'https://brandenghena.com'
+  Other Courses:
+    - 'https://brghena.github.io/courses'
+footer_content: 'Based on <a href="https://github.com/kevinlin1/just-the-class">Just the Class</a> and powered by <a href="https://jekyllrb.com/">Jekyll</a> <br /> Source code available <a href="https://github.com/brghena/courses">here</a>'
+back_to_top: true
+back_to_top_text: "Back to top"
 
 # Collections for website data
 collections:
-  staffers:
+#  staffers:
   modules:
-  schedules:
-  announcements:
+#  schedules:
+#  announcements:
 # Default layouts for each collection type
 defaults:
-  - scope:
-      path: ''
-      type: staffers
-    values:
-      layout: staffer
-      subpath: '/assets/images/'
+#  - scope:
+#      path: ''
+#      type: staffers
+#    values:
+#      layout: staffer
+#      subpath: '/assets/images/'
   - scope:
       path: ''
       type: modules
     values:
       layout: module
-  - scope:
-      path: ''
-      type: schedules
-    values:
-      layout: schedule
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
+#  - scope:
+#      path: ''
+#      type: schedules
+#    values:
+#      layout: schedule
+#  - scope:
+#      path: ''
+#      type: announcements
+#    values:
+#      layout: announcement
 
 compress_html:
   clippings: all
