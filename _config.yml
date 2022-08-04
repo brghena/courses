@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Branden Ghena Courses
+title: Courses
 #tagline: 
 description: Course websites for classes taught by Branden Ghena at Northwestern University
 author: Branden Ghena
@@ -30,31 +30,29 @@ permalink: pretty
 aux_links:
   Branden Ghena:
     - 'https://brandenghena.com'
-  Other Courses:
-    - 'https://brghena.github.io/courses'
 footer_content: 'Based on <a href="https://github.com/kevinlin1/just-the-class">Just the Class</a> and powered by <a href="https://jekyllrb.com/">Jekyll</a> <br /> Source code available <a href="https://github.com/brghena/courses">here</a>'
 back_to_top: true
 back_to_top_text: "Back to top"
 
 # Collections for website data
-collections:
+#collections:
 #  staffers:
-  modules:
+#  modules:
 #  schedules:
 #  announcements:
 # Default layouts for each collection type
-defaults:
+#defaults:
 #  - scope:
 #      path: ''
 #      type: staffers
 #    values:
 #      layout: staffer
 #      subpath: '/assets/images/'
-  - scope:
-      path: ''
-      type: modules
-    values:
-      layout: module
+#  - scope:
+#      path: ''
+#      type: modules
+#    values:
+#      layout: module
 #  - scope:
 #      path: ''
 #      type: schedules
