@@ -3,6 +3,7 @@ layout: page
 title: CS343
 has_children: true
 has_toc: false
+nav_order: 4
 ---
 
 # CS343 - Operating Systems
