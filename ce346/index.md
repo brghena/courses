@@ -6,7 +6,7 @@ has_toc: false
 nav_order: 5
 ---
 
-# CE346 - Microprocessor System Design
+# CE346 - Microcontroller System Design
 
 
 ## Description
