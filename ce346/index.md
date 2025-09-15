@@ -8,6 +8,8 @@ nav_order: 5
 
 # CE346 - Microcontroller System Design
 
+Cross-listed as CS346 and CE346.
+
 
 ## Description
 

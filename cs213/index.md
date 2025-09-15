@@ -31,7 +31,7 @@ Randal E. Bryant and David R. O'Hallaron, **Computer Systems: A Programmer’s P
 
 Large assignments often performed in groups. The emphasis is on exploring and understanding computer systems concepts with a focus on challenges for the students to complete. Recently, common labs have been:
 
- * **Data Lab**: solve puzzles through bitwise operations
+ * **Pack Lab**: manipulate bits and bytes of file contents
  * **Bomb Lab**: reverse engineer secret inputs from a program's assembly code
  * **Attack Lab**: use stack overflow and return-oriented programming to control a program
  * **SETI Lab**: use threads and parallelism to speed up scientific computations

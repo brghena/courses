@@ -20,15 +20,15 @@ wireless networks for them.
 I have taught a number of computer science and computer engineering courses.
 Recent courses include:
 
- * **CS211: "Fundamentals of Computer Programming II"**
+ * [**CS211: "Fundamentals of Computer Programming II"**]({{ site.baseurl | append: "/cs211" }})
    * An introduction to C/C++ and command line
- * **CS213: "Introduction to Computer Systems"**
+ * [**CS213: "Introduction to Computer Systems"**]({{ site.baseurl | append: "/cs213" }})
    * An introduction to a programmer's perspective on computer systems
- * **CS343: "Operating Systems"**
+ * [**CS343: "Operating Systems"**]({{ site.baseurl | append: "/cs343" }})
    * An in-depth view of operating system design and abstractions
- * **CE346: "Microcontroller System Design"**
+ * [**CE346: "Microcontroller System Design"**]({{ site.baseurl | append: "/ce346" }})
    * An introduction to microcontroller-systems software and hardware
- * **CS433: "Wireless Protocols for the Internet of Things"**
+ * [**CS433: "Wireless Protocols for the Internet of Things"**]({{ site.baseurl | append: "/cs433" }})
    * An in-depth exploration of wireless protocols used for Internet of Things technologies
 
 
