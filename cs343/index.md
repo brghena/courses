@@ -53,6 +53,6 @@ Large programming assignments often performed in groups. The specific labs and d
 
  * **Producer-Consumer Lab**: learn about concurrency control
  * **Scheduling Lab**: learn about scheduling with a discrete event simulator
- * **Driver Lab**: extend a kernel with a new device driver
+ * **Filesystem Lab**: implement parts of a filesystem within a kernel
  * **Paging Lab**: implement virtual memory within a kernel
 
